@@ -24,6 +24,7 @@
     'version' : '0.1.0',
     'author' : 'Jan Vereecken',
     'category': 'Base',
+    'description': 'Defaults the way we like it, aha aha.',
     'complexity': 'normal',
     'website': 'www.clubit.be',
     'data': [
