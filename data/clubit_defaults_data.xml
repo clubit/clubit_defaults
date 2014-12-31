@@ -2,14 +2,17 @@
 <openerp>
     <data>
         <menuitem id="base.menu_module_tree"
-          parent="base.menu_management"
-          name="Installed Modules"
-          sequence="5"
-          action="base.open_module_tree" />
-        <menuitem id="base.menu_module_tree"
-          parent="base.menu_management"
-          name="Update Modules List"
-          sequence="6"
-          action="base.open_module_tree" />
+            parent="base.menu_management"
+            name="Installed Modules"
+            sequence="5"
+            action="base.open_module_tree" />
+
+          <menuitem id="base.menu_view_base_module_update"
+            parent="base.menu_management"
+            name="Update Modules List"
+            sequence="6"
+            action="base.action_view_base_module_update"
+            groups="base.group_no_one"
+            icon="STOCK_CONVERT"/>
     </data>
 </openerp>
