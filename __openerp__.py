@@ -29,10 +29,12 @@
     'website': 'www.clubit.be',
     'data': [
         'data/clubit_defaults_data.xml',
+        'data/mail_data.xml'
     ],
     'depends' : [
         'account',
-        'mail'
+        'mail',
+        'web'
     ],
     'js': [
         'static/src/js/*.js',
