@@ -29,15 +29,14 @@
     'website': 'www.clubit.be',
     'data': [
         'data/clubit_defaults_data.xml',
-        'data/mail_data.xml'
     ],
     'depends' : [
         'account',
         'mail',
-        'web'
+        'web',
+        'oerp_no_phoning_home'
     ],
     'js': [
-        'static/src/js/*.js',
     ],
     'qweb': [
     ],
@@ -46,5 +45,5 @@
     'test': [
     ],
     'installable': True,
-    'auto_install': False,                
+    'auto_install': False,
 }

@@ -1,9 +1,0 @@
-<openerp>
-  <data>
-    <template id="assets_backend" name="clubit_defaults assets" inherit_id="web.assets_backend">
-      <xpath expr="." position="inside">
-        <script type="text/javascript" src="/clubit_defaults/static/src/js/announcement_bar.js"></script>
-      </xpath>
-    </template>
-  </data>
-</openerp>
